@@ -1,0 +1,32 @@
+{
+  "name": "nothing-orm",
+  "version": "0.1.0",
+  "description": "Puny, functional wrappers for mysql2",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachshattuck/nothing-orm.git"
+  },
+  "keywords": [
+    "mysql",
+    "mysql2",
+    "database"
+  ],
+  "author": "Zach Shattuck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zachshattuck/nothing-orm/issues"
+  },
+  "homepage": "https://github.com/zachshattuck/nothing-orm#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "typescript": "^5.4.2"
+  },
+  "peerDependencies": {
+    "mysql2": ">=3"
+  }
+}
