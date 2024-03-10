@@ -4,7 +4,7 @@ export interface TableNameMap {
   [table: string]: any
 }
 
-export function init<M extends TableNameMap>(database: string) {
+export function nothing<M extends TableNameMap>(database: string) {
 
 
   /**
@@ -308,3 +308,5 @@ export function init<M extends TableNameMap>(database: string) {
     andGet
   }
 }
+
+export default nothing
