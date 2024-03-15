@@ -193,7 +193,7 @@ export function nothing<M extends TableNameMap>(database: string) {
 
     const query = isArray
       ? 'DELETE FROM ??.?? WHERE ?? IN (?)'
-      : 'DELETE * FROM ??.?? WHERE ?? = ?'
+      : 'DELETE FROM ??.?? WHERE ?? = ?'
 
     return new Promise<void>((resolve, reject) => {
 
